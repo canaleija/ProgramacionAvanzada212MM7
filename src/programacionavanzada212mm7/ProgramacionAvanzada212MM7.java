@@ -18,14 +18,18 @@ public class ProgramacionAvanzada212MM7 {
     public static void main(String[] args) {
         // TODO code application logic here
         //
-        System.out.print("Hola mundo!");
+        
         // variable tipo: Fecha id: 
         Fecha hoy = new Fecha();
-        hoy.dia = 24;
-        hoy.mes=3;
-        hoy.anio=2021;
-        Fecha manana = new Fecha();
-        System.out.println();
+        // modificar ni para ver sus atributos
+        hoy.setDia(16);
+        hoy.setMes(4);
+        hoy.setAnio(2021);
+        System.out.println(hoy.getDia()+"/"+hoy.getMes()+"/"+hoy.getAnio());
+        Fecha manana = new Fecha(16,4,2021);
+        manana.setDia(17);
+       
+        System.out.println(manana.getDia()+"/"+manana.getMes()+"/"+manana.getAnio());
         // Todas las clases se identifica la 1er letra con mayúscula
         // Las clases ademas que permiten crear plantillas para generar objetos 
         // tambien me ayudan a crear nuevos tipos de datos

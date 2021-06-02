@@ -5,6 +5,7 @@
  */
 package programacionavanzada212mm7;
 
+import gui.JFrameManita;
 import introduccion.Alumno;
 import introduccion.Fecha;
 import introduccion.Persona;
@@ -33,16 +34,19 @@ public class ProgramacionAvanzada212MM7 {
 //        Fecha manana = new Fecha(16,4,2021);
 //        manana.setDia(17);
 //       
-//        System.out.println(manana.getDia()+"/"+manana.getMes()+"/"+manana.getAnio());
+//        System.out.println(manana.getDia()+"/"+manana.getMes()+"/"+manana.getAn
 
-        Persona beto = new Persona();
-       
-        System.out.println();
-        
-        Alumno martha = new Alumno("Martha","Centro 125","Mexicana", 23, 1);
-      
-        
-        System.out.println();
+         JFrameManita aux = new JFrameManita("Ventana 1");
+         JFrameManita aux2 = new JFrameManita("Ventana 2");
+
+//        Persona beto = new Persona();
+//       
+//        System.out.println();
+//        
+//        Alumno martha = new Alumno("Martha","Centro 125","Mexicana", 23, 1);
+//      
+//        
+//        System.out.println();
         // Todas las clases se identifica la 1er letra con mayúscula
         // Las clases ademas que permiten crear plantillas para generar objetos 
         // tambien me ayudan a crear nuevos tipos de datos
